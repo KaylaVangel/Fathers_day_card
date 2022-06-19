@@ -1,0 +1,141 @@
+body {
+  background-color: rgb(105, 95, 145);
+  font-family: cursive;
+  color: rgb(243, 243, 235);
+  text-align: center;
+
+}
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+.images {
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+}
+
+
+img {
+  width: 20%;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation-name: mymove;
+  animation-duration: 90s;
+  animation-iteration-count: infinite;
+
+}
+
+#image-1 {
+  animation-delay: 47s;
+}
+
+#image-2 {
+  animation-delay: 42s;
+}
+
+#image-3 {
+
+  animation-delay: 37s;
+
+}
+
+#image-4 {
+
+  animation-delay: 32s;
+
+}
+
+#image-5 {
+
+  animation-delay: 27s;
+
+}
+
+#image-6 {
+
+  animation-delay: 22s;
+
+}
+
+#image-7 {
+
+  animation-delay: 17s;
+
+}
+
+#image-8 {
+
+  animation-delay: 12s;
+
+}
+
+#image-9 {
+
+  animation-delay: 7s;
+
+}
+
+#image-10 {
+
+  animation-delay: 2s;
+
+}
+
+
+@keyframes mymove {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    left: 1500px;
+    top: 0px;
+  }
+
+  50% {
+    left: 1500px;
+    top: 400px;
+  }
+
+  75% {
+    left: 0px;
+    top: 400px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #1602c4, 0 0 40px #1602c4, 0 0 50px #1602c4, 0 0 60px #1602c4, 0 0 70px #1602c4;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #3f5cfd, 0 0 40px #3f5cfd, 0 0 50px #3f5cfd, 0 0 60px #3f5cfd, 0 0 70px #3f5cfd, 0 0 80px #3f5cfd;
+  }
+}
+
+a {
+  color: rgb(147, 185, 255);
+  background-color: rgb(81, 86, 97);
+}
+
+a:hover {
+  color: rgb(241, 243, 247);
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+}
